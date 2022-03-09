@@ -22,10 +22,11 @@ body {
 }
 
 #faq .card .card-header .btn-header-link {
-  color: #fff;
+  /* color: #000; */
   display: block;
   text-align: left;
-  background: #ffb700;
+  /* background: #ffb700; */
+  background: #fff;
   padding: 20px;
 }
 
@@ -37,8 +38,9 @@ body {
 }
 
 #faq .card .card-header .btn-header-link.collapsed {
-  background: #207efb;
-  color: #fff;
+  /* background: #207efb; */
+  background: #fff;
+  /* color: #000; */
 }
 
 #faq .card .card-header .btn-header-link.collapsed:after {
