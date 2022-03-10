@@ -22,16 +22,16 @@ body {
 }
 
 #faq .card .card-header .btn-header-link {
-  /* color: #000; */
   display: block;
   text-align: left;
   background: #207efb;
-  /* background: #fff; */
   padding: 20px;
   font-weight: bold;
   text-transform: capitalize;
 }
-
+.btn.btn-header-link[aria-expanded="true"] {
+  color: #fff;
+}
 #faq .card .card-header .btn-header-link:after {
   content: "\f106";
   font-family: "Font Awesome 5 Free";
@@ -40,7 +40,6 @@ body {
 }
 
 #faq .card .card-header .btn-header-link.collapsed {
-  /* background: #207efb; */
   background: #fff;
   /* color: #000; */
 }
