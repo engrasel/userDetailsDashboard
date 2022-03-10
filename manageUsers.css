@@ -18,7 +18,7 @@
   border-radius: 3px 3px 0 0;
 }
 .table-title h2 {
-  margin: 5px 0 0;
+  margin: 0;
   font-size: 24px;
 }
 .table-title .btn-group {
@@ -50,12 +50,14 @@ table.table tr td {
   padding: 12px 15px;
   vertical-align: middle;
 }
-table.table tr th:first-child {
+
+/* table.table tr th:first-child {
   width: 60px;
-}
-table.table tr th:last-child {
+} */
+/* table.table tr th:last-child {
   width: 100px;
-}
+} */
+
 table.table-striped tbody tr:nth-of-type(odd) {
   background-color: #fcfcfc;
 }
@@ -219,4 +221,20 @@ table.table .avatar {
 }
 .modal form label {
   font-weight: normal;
+}
+
+/* user table scroll */
+.live__scroll {
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+.live__scroll .row {
+  display: block;
+}
+.live__scroll .live__scroll--box {
+  display: inline-block;
+  float: none;
+  padding: 15px;
+  border: 1px solid red;
 }

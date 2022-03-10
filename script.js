@@ -1,10 +1,10 @@
-$(document).ready(function () {
+jQuery(document).ready(function () {
   // Activate tooltip
-  $('[data-toggle="tooltip"]').tooltip();
+  jQuery('[data-toggle="tooltip"]').tooltip();
 
   // Select/Deselect checkboxes
-  var checkbox = $('table tbody input[type="checkbox"]');
-  $("#selectAll").click(function () {
+  var checkbox = jQuery('table tbody input[type="checkbox"]');
+  jQuery("#selectAll").click(function () {
     if (this.checked) {
       checkbox.each(function () {
         this.checked = true;
@@ -17,7 +17,12 @@ $(document).ready(function () {
   });
   checkbox.click(function () {
     if (!this.checked) {
-      $("#selectAll").prop("checked", false);
+      jQuery("#selectAll").prop("checked", false);
     }
+  });
+
+  // date Time Picker
+  jQuery("#datepicker").datepicker({
+    uiLibrary: "bootstrap4",
   });
 });
