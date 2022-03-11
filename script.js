@@ -20,9 +20,4 @@ jQuery(document).ready(function () {
       jQuery("#selectAll").prop("checked", false);
     }
   });
-
-  // date Time Picker
-  jQuery("#datepicker").datepicker({
-    uiLibrary: "bootstrap4",
-  });
 });

@@ -33,7 +33,6 @@
   border-radius: 2px;
   border: none;
   outline: none !important;
-  margin-left: 10px;
 }
 .table-title .btn i {
   float: left;
@@ -50,13 +49,6 @@ table.table tr td {
   padding: 12px 15px;
   vertical-align: middle;
 }
-
-/* table.table tr th:first-child {
-  width: 60px;
-} */
-/* table.table tr th:last-child {
-  width: 100px;
-} */
 
 table.table-striped tbody tr:nth-of-type(odd) {
   background-color: #fcfcfc;
@@ -137,6 +129,11 @@ table.table .avatar {
   font-size: 13px;
 }
 
+@media screen and (max-width: 576px) {
+  .table-title h2 {
+    font-size: 20px;
+  }
+}
 /* Custom checkbox */
 .custom-checkbox {
   position: relative;

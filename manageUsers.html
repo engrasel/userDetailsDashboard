@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Users List</title>
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
         integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="style.css">  
     
     <!-- manage_users -->
-    <link rel="stylesheet" href="manageUsers.css">  
+    <link rel="stylesheet" href="manageUsers.css">
     
 </head>
 <body>
@@ -163,8 +163,9 @@
                     
                     <div class="form-group">
                         <label>Select Date</label>
-                        <input id="datepicker" class="form-control" required />
+                        <input type="input" id="datepicker" class="form-control" required />
                     </div>
+
                     <div class="form-group">
                         <label>Cellphone</label>
                         <input type="text" class="form-control" required>
@@ -234,10 +235,17 @@
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
 
+    <script src="script.js"></script>
+
     <!-- bootstrap-datepicker -->
     <script src="https://unpkg.com/gijgo@1.9.13/js/gijgo.min.js" type="text/javascript"></script>
     <link href="https://unpkg.com/gijgo@1.9.13/css/gijgo.min.css" rel="stylesheet" type="text/css" />
+    
 
-    <script src="script.js"></script>
+    <script>
+        $('#datepicker').datepicker({
+            uiLibrary: 'bootstrap4'
+        });
+    </script>
 </body>
 </html>
