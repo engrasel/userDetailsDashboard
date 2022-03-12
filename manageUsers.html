@@ -156,29 +156,407 @@
                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
                 </div>
                 <div class="modal-body">
-                    <div class="form-group">
-                        <label>Full Name</label>
-                        <input type="text" class="form-control" required>
-                    </div>
-                    
-                    <div class="form-group">
-                        <label>Select Date</label>
-                        <input type="input" id="datepicker" class="form-control" required />
-                    </div>
+                    <div class="row">
+                        <!------------section one start here------------->
+                        <div class="col-md-6 border-right">
+                            <div class="card2 first-screen show ml-2">
+                                <div class="row">
+                                    <div class="col-md-12 col-lg-12">
+                                        <div class="row px-3 mt-4">
+                                            <div class="form-group w-100 mt-1 mb-1">
+                                                <h1 class="main-titles">Tell us about yourself.</h1>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                                <div class="row">
+                                    <div class="col-md-6 col-lg-6">
+                                        <div class="row px-3 mt-4">
+                                            <div class="form-group w-100 mt-1 mb-1">
+                                                <label class="level-custom-css" for="first-name">First Name</label>
+                                                <input type="text" id="first-name" class="form-control" required>
+                                            </div>
+                                        </div>
+                                    </div>
+                            
+                                    <div class="col-md-6 col-lg-6">
+                                        <div class="row px-3 mt-4">
+                                            <div class="form-group w-100 mt-1 mb-1">
+                                                <label class="level-custom-css" for="last-name">Last Name</label>
+                                                <input type="text" id="last-name" class="form-control" required>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                            
+                                <div class="row">
+                                    <div class="col-md-6 col-lg-6">
+                                        <div class="row px-3 mt-4">
+                                            <div class="form-group w-100 mt-1 mb-1">
+                                                <label class="level-custom-css" for="date-of-birth">Date of birth</label>
+                                                <input type="date" id="date-of-birth" class="form-control" required>
+                                            </div>
+                                        </div>
+                                    </div>
+                            
+                                    <div class="col-md-6 col-lg-6">
+                                        <div class="row px-3 mt-4">
+                                            <div class="form-group w-100 mt-1 mb-1">
+                                                <label class="level-custom-css" for="cell-phone">Cellphone</label>
+                                                <input type="tel" id="number" class="form-control" required>
+                            
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                            
+                                <div class="row">
+                                    <div class="col-md-6 col-lg-6">
+                                        <div class="row px-3 mt-4">
+                                            <div class="form-group w-100 mt-1 mb-1">
+                                                <label class="level-custom-css" for="email">Email</label>
+                                                <input type="text" id="email" class="form-control" required>
+                                            </div>
+                                        </div>
+                                    </div>
+                            
+                                    <div class="col-md-6 col-lg-6">
+                                        <div class="row px-3 mt-4">
+                                            <div class="form-group w-100 mt-1 mb-1">
+                                                <label class="level-custom-css" for="upload id">Click to upload Id</label>
+                                                <input type="file" id="upload-id" class="form-control" required>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                            
+                                <div class="row px-3 mt-4">
+                                    <div class="form-group w-100 mt-3 mb-4">
+                                        <div class="select mb-3">
+                                            <label class="level-custom-css" for="how-much-do-you-need">How much do you need?</label>
+                                            <select name="how-much-need" class="form-control">
+                                                <option>Chose amount</option>
+                                                <option>250$</option>
+                                                <option>300$</option>
+                                                <option>400$</option>
+                                                <option>500$</option>
+                                                <option>600$</option>
+                                                <option>750$</option>
+                                                <option>800$</option>
+                                                <option>1000$</option>
+                                                <option>1250$</option>
+                                                <option>1500$</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                            
+                                </div>
+                            
+                            </div>
+                        </div>
+                        <!------------section one end here------------->
 
-                    <div class="form-group">
-                        <label>Cellphone</label>
-                        <input type="text" class="form-control" required>
+                        <!------------section two end here------------->
+                        <div class="col-md-6">
+                            <div class="card2 ml-2">
+                                <div class="row">
+                                    <div class="col-md-12 col-lg-12">
+                                        <div class="row px-3 mt-4">
+                                            <div class="form-group w-100 mt-1 mb-1">
+                                                <h1 class="main-titles">What is your address?</h1>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6 col-lg-6">
+                                        <div class="row px-3 mt-4">
+                                            <div class="form-group w-100 mt-1 mb-1">
+                                                <label class="level-custom-css" for="no">No.</label>
+                                                <input type="tel" id="number" class="form-control" required>
+                                            </div>
+                                        </div>
+                                    </div>
+                            
+                                    <div class="col-md-6 col-lg-6">
+                                        <div class="row px-3 mt-4">
+                                            <div class="form-group w-100 mt-1 mb-1">
+                                                <label class="level-custom-css" for="street">Street</label>
+                                                <input type="text" id="street" class="form-control" required>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                            
+                                <div class="row">
+                                    <div class="col-md-6 col-lg-6">
+                                        <div class="row px-3 mt-4">
+                                            <div class="form-group w-100 mt-1 mb-1">
+                                                <label class="level-custom-css" for="apt">Apt.</label>
+                                                <input type="text" id="apt" class="form-control" required>
+                                            </div>
+                                        </div>
+                                    </div>
+                            
+                                    <div class="col-md-6 col-lg-6">
+                                        <div class="row px-3 mt-4">
+                                            <div class="form-group w-100 mt-1 mb-1">
+                                                <label class="level-custom-css" for="city">City</label>
+                                                <input type="text" id="city" class="form-control" required>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                            
+                                <div class="row">
+                                    <div class="col-md-6 col-lg-6">
+                                        <div class="row px-3 mt-4">
+                                            <div class="form-group w-100 mt-1 mb-1">
+                                                <label class="level-custom-css" for="postal-code">Postal Code</label>
+                                                <input type="text" id="postal-code" class="form-control" required>
+                                            </div>
+                                        </div>
+                                    </div>
+                            
+                                    <div class="col-md-6 col-lg-6">
+                                        <div class="row px-3 mt-4">
+                                            <div class="form-group w-100 mt-1 mb-1">
+                                                <div class="select mb-3">
+                                                    <label class="level-custom-css" for="province">Province</label>
+                                                    <select name="province" class="form-control">
+                                                        <option>Chose amount</option>
+                                                        <option>option one</option>
+                                                        <option>option two</option>
+                                                        <option>option three</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!------------section two end here------------->   
+                        
+                        <div class="col-md-6 border-right">
+                            <!------------section three start here------------->
+                            <div class="card2 ml-2">
+                            
+                                <div class="row">
+                                    <div class="col-md-12 col-lg-12">
+                                        <div class="row px-3 mt-4">
+                                            <div class="form-group w-100 mt-1 mb-1">
+                                                <h1 class="main-titles">Your references</h1>
+                                                <h5 class="mb-0">Please give us 2 references</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                                <div class="row">
+                                    <div class="col-md-6 col-lg-6">
+                                        <div class="row px-3 mt-4">
+                                            <div class="form-group w-100 mt-1 mb-1">
+                                                <label class="level-custom-css" for="ftname">First name</label>
+                                                <input type="text" id="ftname" class="form-control" required>
+                                            </div>
+                                        </div>
+                                    </div>
+                            
+                                    <div class="col-md-6 col-lg-6">
+                                        <div class="row px-3 mt-4">
+                                            <div class="form-group w-100 mt-1 mb-1">
+                                                <label class="level-custom-css" for="lastname">Last name</label>
+                                                <input type="text" id="lastname" class="form-control" required>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                            
+                                <div class="row">
+                                    <div class="col-md-6 col-lg-6">
+                                        <div class="row px-3 mt-4">
+                                            <div class="form-group w-100 mt-1 mb-1">
+                                                <label class="level-custom-css" for="telephone">Telephone</label>
+                                                <<input type="tel" id="number" class="form-control" required>
+                            
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-lg-6">
+                                        <div class="row px-3 mt-4">
+                                            <div class="form-group w-100 mt-1 mb-1">
+                                                <label class="level-custom-css" for="relationship">Relationship</label>
+                                                <input type="text" id="relationship" class="form-control" required>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                            
+                                <div class="row">
+                                    <div class="col-md-6 col-lg-6">
+                                        <div class="row px-3 mt-4">
+                                            <div class="form-group w-100 mt-1 mb-1">
+                                                <label class="level-custom-css" for="fname">Frist name</label>
+                                                <input type="text" id="fname" class="form-control" required>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-lg-6">
+                                        <div class="row px-3 mt-4">
+                                            <div class="form-group w-100 mt-1 mb-1">
+                                                <label class="level-custom-css" for="lastname">Last name</label>
+                                                <input type="text" id="lastname" class="form-control" required>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                            
+                                <div class="row">
+                                    <div class="col-md-6 col-lg-6">
+                                        <div class="row px-3 mt-4">
+                                            <div class="form-group w-100 mt-1 mb-1">
+                                                <label class="level-custom-css" for="telephone">Telephone</label>
+                                                <input type="tel" id="number" class="form-control" required>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-lg-6">
+                                        <div class="row px-3 mt-4">
+                                            <div class="form-group w-100 mt-1 mb-1">
+                                                <label class="level-custom-css" for="relationship">Relationship</label>
+                                                <input type="text" id="relationship" class="form-control" required>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!------------section three end here------------->
+                        </div>
+                        <div class="col-md-6">
+                            <!------------section four start here------------->
+                            <div class="card2 ml-2 pt-4">
+                            
+                            
+                                <div class="row">
+                                    <div class="col-md-12 col-lg-12">
+                                        <div class="row px-3 mt-4">
+                                            <div class="form-group w-100 mt-1 mb-1">
+                                                <h1 class="main-titles">Employer Info</h1>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                                <div class="row">
+                                    <div class="col-md-6 col-lg-6">
+                                        <div class="row px-3 mt-4">
+                                            <div class="form-group w-100 mt-1 mb-1">
+                                                <label class="level-custom-css" for="companyname">Company Name</label>
+                                                <input type="text" id="company-name" class="form-control" required>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-lg-6">
+                                        <div class="row px-3 mt-4">
+                                            <div class="form-group w-100 mt-1 mb-1">
+                                                <label class="level-custom-css" for="occupation">Occupation</label>
+                                                <input type="text" id="occupation" class="form-control" required>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                            
+                                <div class="row">
+                                    <div class="col-md-6 col-lg-6">
+                                        <div class="row px-3 mt-4">
+                                            <div class="form-group w-100 mt-1 mb-1">
+                                                <label class="level-custom-css" for="supervisor-name">Supervisor name</label>
+                                                <input type="text" id="supervisor-name" class="form-control" required>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-lg-6">
+                                        <div class="row px-3 mt-4">
+                                            <div class="form-group w-100 mt-1 mb-1">
+                                                <label class="level-custom-css" for="telephone-ext">Telephone & ext #</label>
+                                                <input type="tel" id="number" class="form-control" required>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                            
+                                <div class="row">
+                                    <div class="col-md-6 col-lg-6">
+                                        <div class="row px-3 mt-4">
+                                            <div class="form-group w-100 mt-1 mb-1">
+                                                <label class="level-custom-css" for="f-your-pay">Frequency of your pay</label>
+                                                <input type="number" id="f-your-pay" class="form-control" required>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-lg-6">
+                                        <div class="row px-3 mt-4">
+                                            <div class="form-group w-100 mt-1 mb-1">
+                                                <label class="level-custom-css" for="relationship">Next pay date</label>
+                                                <input type="date" id="n-pay-date" class="form-control" required>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                                <div class="row">
+                                    <div class="col-md-12 col-lg-12">
+                                        <div class="row px-3 mt-4">
+                                            <div class="form-group w-100 mt-1 mb-1">
+                                                <h1 class="main-title-two">Self-employed</h1>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                                <div class="row">
+                                    <div class="col-md-6 col-lg-6">
+                                        <div class="row px-3 mt-4">
+                                            <div class="form-group w-100 mt-1 mb-1">
+                                                <div class="select mb-3">
+                                                    <label class="level-custom-css" for="province">Frequency of your deposits</label>
+                                                    <select name="your-deposits" class="form-control">
+                                                        <option>Chose amount</option>
+                                                        <option>Every week</option>
+                                                        <option>Every two weeks</option>
+                                                        <option>Twice a month</option>
+                                                        <option> Every Month</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-lg-6">
+                                        <div class="row px-3 mt-4">
+                                            <div class="form-group w-100 mt-1 mb-1">
+                                                <label class="level-custom-css" for="n-pay-day">Next payday</label>
+                                                <input type="date" id="n-pay-day" class="form-control" required>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!------------section four end here------------->
+
+                        </div>
                     </div>
-                    <div class="form-group">
-                        <label>Email</label>
-                        <input type="email" class="form-control" required>
-                    </div>
-                    <div class="form-group">
-                        <label>Upload ID</label>
-                        <input type="file" class="form-control" id="customFile" />
-                    </div>
-                    
                 </div>
                 <div class="modal-footer">
                     <input type="button" class="btn btn-default" data-dismiss="modal" value="Cancel">
